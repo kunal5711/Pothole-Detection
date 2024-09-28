@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 2. Download the trained model (best.pt) and place it in the appropriate folder.
 3. Make sure to update the paths for the model and video file in the script:
-  ```
-  model = YOLO(r"your_path_to_best.pt")
-  cap = cv2.VideoCapture(r"your_path_to_video.mp4")
-  ```
+     ```
+     model = YOLO(r"your_path_to_best.pt")
+     cap = cv2.VideoCapture(r"your_path_to_video.mp4")
+     ```
